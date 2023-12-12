@@ -26,15 +26,17 @@
         {% endif %}
       {% endfor %}
 
+      <!--
       <a class="sidebar-nav-item" href="{{ site.github }}">GitHub</a>
-      <a class="sidebar-nav-item" href="mailto:{{ site.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-      <a class="sidebar-nav-item" href="{{ site.youtube }}"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+      -->
 
       <div class="sidebar-nav-item">
         <p>
           <a href="mailto:{{ site.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>
           &nbsp;
-          <a href="{{ site.youtube }}"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+          <a href="{{ site.youtube }}"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+          &nbsp;
+          <a href="{{ site.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
         </p>
       </div>
     </nav>
